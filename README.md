@@ -6,7 +6,7 @@ In this assignment, we will build an interactive dashboard to explore the [Belly
 
 ## Step 1 - Plotly.js
 
-Use Plotly.js to build interactive charts for your dashboard.
+Use Plotly.js to build interactive charts for your dashboard
 
 * Create a PIE chart that uses data from your samples route (`/samples/<sample>`) to display the top 10 samples.
 
