@@ -10,7 +10,6 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-
 #################################################
 # Database Setup
 #################################################
@@ -27,12 +26,10 @@ Base.prepare(db.engine, reflect=True)
 Samples_Metadata = Base.classes.sample_metadata
 Samples = Base.classes.samples
 
-
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
-
 
 @app.route("/names")
 def names():
